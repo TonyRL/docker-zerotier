@@ -1,4 +1,4 @@
-FROM tonyrl/zerotier-base:1.4.6
+FROM tonyrl/zerotier-base:latest
 
 COPY main.sh /main.sh
 RUN chmod +x main.sh
